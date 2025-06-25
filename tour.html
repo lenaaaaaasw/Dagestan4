@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туры</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="tour.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+</head>
+
+<body> 
+    <a href="#top" class="btn-up"></a>
+    <a href="index.html" class="btn-back"></a>
+    <div class="conteiner">
+        <div class="headertour">
+            <div class="headertourtext">
+                <div class="texttop">
+                    <div><div class="font30"> Тур «Сердце гор»</div></div>
+                    <div class="fontheader font-weight"> главные красоты<br> дагестана за 3 дня</div>
+                </div>
+                <div class="textdown">
+                    <div class="headertourbutton"><button>Оставить заявку</button></div>
+                </div>      
+            </div>
+            <div class="headertourphoto">
+                <div><img src="image/phototour.png" alt=""></div>
+            </div>
+        </div>
+        <div class="program">
+            <div class="mainpagebackground">
+                <div class="programtext">
+                    <div class="fontheader font-weight">Программа тура</div>
+                    <div class="arrowprogram"><img src="image/arrowprogram.png" alt=""></div>
+                </div>
+                <div class="tourcard1">
+                    <div class="tourcard">
+                        <div class="tourcardbutton font30">День 1</div>
+                        <p class="font30main">Тот самый, Сулакский каньон!</p>
+                        <ul>
+                            <li class="font20">Встречаемся в аэропорту Махачкалы.</li>
+                            <li class="font20">Отправляемся к одному из крупнейших каньонов мира.</li>
+                            <li class="font20">Посещаем самые захватывающие смотровые площадки. С высоты хребта мы увидим невероятный горный пейзаж, а на глубине от 1 до 2 км — бирюзового цвета реку Сулак.</li>
+                            <li class="font20">Спускаемся к Чиркейскому водохранилищу и катаемся на катере.</li>
+                            <li class="font20">Обедаем на свежем воздухе.</li>
+                            <li class="font20">Едем в сердце горного Дагестана через самый длинный тоннель в России.</li>
+                            <li class="font20">Заселяемся в экодом с видом на горы.</li>
+                            <li class="font20">Вкусно и сытно ужинаем блюдами национальной кухни.</li>
+                        </ul>
+                    </div>
+                    <div class="tourcard">
+                        <div class="tourcardbutton font30">День 2</div>
+                        <p class="font30main">Живописный Хунзахский 
+                        каньон</p>
+                        <ul>
+                            <li class="font20">Просыпаешься, а&nbsp;за&nbsp;окном горы.</li>
+                            <li class="font20">Завтракаем и&nbsp;отправляемся в&nbsp;Хунзахский район, там очень красиво!</li>
+                            <li class="font20">Первая остановка — «Хунзахское плато». Ровная как скатерть равнина вдруг обрывается, превращаясь в глубокий каньон «Цолотль» с отвесными скалами и водопадом «Тобот», бьющим с 80-метровой высоты. Мурашки.</li>
+                            <li class="font20">Вторая остановка — Матласс. Сперва мы&nbsp;посмотрим на «Каменную чашу» — это невероятные подземные пещеры и узкие проходы между ними. Затем поедем в Матласс, где покатаемся на зиплайне с видом на Матласский водопад.</li>
+                            <li class="font20">Пообедаем в нашем любимом местном кафе сочным шашлыком из баранины.</li>
+                            <li class="font20">В конце дня посетим секретные точки, которые похитят ваше сердце своей красотой и величием.</li>
+                            <li class="font20">Ужинаем с видом на закат в нашем уютном доме.</li>
+                        </ul>
+                    </div>
+                    <div class="tourcard">
+                        <div class="tourcardbutton font30">День 3</div>
+                        <p class="font30main">Горы, лошади, любовь!</p>
+                        <ul>
+                            <li class="font20">Завтракаем и выдвигаемся в финальный день путешествия.</li>
+                            <li class="font20">Проникаемся древним дагестанским духом. Посещаем аулы Кахиб и Гоор. Наслаждаемся потрясающей архитектурой тех времен.</li>
+                            <li class="font20">Посещаем знаменитую смотровую площадку «Язык Тролля».</li>
+                            <li class="font20">Катаемся на лошадях и делаем фотографии на память.</li>
+                            <li class="font20">Отправляемся на обед.</li>
+                            <li class="font20">Наевшись и немного передохнув, мы едем в Карадахскую теснину.</li>
+                            <li class="font20">Выдвигаемся в аэропорт. Обнимаемся и благодарим друг друга за поездку. Может быть даже плачем, но мужественно прячем слезы.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="sliderr" id="sliderr">
+                <div class="sliderrbuttton">
+                    <button class="sliderrbuttton1" id="prevBtn">
+                        <img src="image/sliderarrowleft.svg" alt="Prev">
+                    </button>
+                    <button class="sliderrbuttton2" id="nextBtn">
+                        <img src="image/sliderarrowright.svg" alt="Next">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="ticket">
+            <div class="ticketbackground">
+                <div class="tickettextreverce">
+                    <div class="tickettextreverce-wrap">
+                        <div>Твоя задача купить<br> билет на самолет,<br> остальные заботы<br> мы берем на себя.</div>
+                        <div>В стоимость включено<br> все, кроме перелета. </div>
+                    </div>
+                </div>
+                <div class="tickettext">
+                    <div class="fontheader font-weight">Что входит в стоимость?</div>
+                    <div class="minitext">
+                        <div class="font25"><li>Трансфер и перемещение по всему маршруту.</li></div>
+                        <div class="font25"><li>Питание (завтрак, обед, ужин)</li></div>
+                        <div class="font25"><li>Прогулка на катере</li></div>
+                        <div class="font25"><li>Гид, который будет сопровождать вас в течение всего тура</li></div>
+                        <div class="font25"><li>Входные билеты на все достопримечательности по маршруту</li></div>
+                        <div class="font25"><li>Проживание в эко-доме в горах (двухместные и трехместные номера)</li></div>
+                        <div class="font25"><li>Катание на лошадях</li></div>
+                        <div class="font25"><li>Секретные локации</li></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="houseslider">
+            <div class="houseslidertext">
+                <div class="texttop">
+                    <div class="fontheader font-weight">Где будем жить?</div>
+                </div>
+                <div class="textdown">
+                    <div class="font30 font-weight">В комфортных этнических домах в селе Хариколо. Вокруг только горы, природа и тишина. Внутри тепло зимой и прохладно летом. И есть всё, что нужно для комфорта – от чистых постелей до шампуня в душе.
+                    </div>
+                </div>      
+            </div>
+            <div class="housesliderphoto">
+                <div class="housessliderrbuttton">
+                    <div><button id="prev"><img src="image/sliderarrowleft.svg" alt=""></button></div>
+                    <div><button id="next"><img src="image/sliderarrowright.svg" alt=""></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="things">
+            <div class="thingstext">
+                <div class="fontheader font-weight">Не забудь взять с собой</div>
+                <div class="imagearrow"><img src="image/thinksarrow.svg" alt=""></div>
+            </div>
+            <div class="cardthings">
+                <div class="itemthings">
+                    <div class="font300">Удобную обувь</div>
+                    <div class="font255">Кроссовки или трекинговые ботинки будут отличным вариантом для поездки в горы, чтобы защитить стопу при ходьбе по камням.
+                    </div>
+                </div>
+                <div class="itemthings">
+                    <div class="font300">Личная гигиена</div>
+                    <div class="font255">В эко-доме для гостей есть шампунь и гель для душа. А вот зубную щетку и пасту, помаду, крем для рук и другие средства личной гигиены возьмите из дома.</div>
+                </div>
+                <div class="itemthings">
+                    <div class="font300">Тёплые вещи</div>
+                    <div class="font255">Например, легкий пуховик/флис и термобелье для холодной погоды. Комфортный дождевик на случай осадков.</div>
+                </div>
+                <div class="itemthings">
+                    <div class="font300">Медикаменты</div>
+                    <div class="font255">Мы несомненно окажем вам помощь при необходимости, но если у вас есть индивидуальные особенности, рекомендуем взять лекарства с собой.</div>
+                </div>
+                <div class="itemthings">
+                    <div class="font300">Защита от солнца</div>
+                    <div class="font255">В горах солнце особенно активно, не забудьте солнцезащитный крем, очки и головной убор (бейсболку/шляпку с полями).</div>
+                </div>
+                <div class="itemthings">
+                    <div class="font300">Электроника</div>
+                    <div class="font255">Рекомендуем взять внешний аккумулятор, а также освободить место или взять флешку для бесчисленного количества новых фотографий</div>
+                </div>
+            </div>
+        </div>
+        <div class="mainpagebackground">
+            <div class="reviews">
+                <div class="reviewstext">
+                    <div class="reviewsexh1">
+                        <p class="fontheader font-weight">Отзывы</p>
+                        <div class="reviewsarrow"><img src="image/arrowgreen.png" alt=""></div>
+                    </div>
+                    <div class="reviewstexth2">
+                        <div class="font30">
+                        Ваши отзывы наполняют<br>нас любовью и благодарностью. <br>Мы всегда рады получать <br>от вас обратную связь.
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewsphoto">
+                    <div class="reviewsphotomain">
+                        <div><button id="prevReviews"><img src="image/arrowleft.svg" alt=""></button></div>
+                        <div><button id="nextReviews"><img src="image/arrowlright.svg" alt=""></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-form">
+            <div class="formmaim">
+                <div class="form-left">
+                    <div class="formtext1">
+                        <p class="fontheader font-weight">ЗАБРОНИРОВАТЬ ТУР<br>ИЛИ ЗАДАТЬ ВОПРОСЫ<br>МОЖНО ЗДЕСЬ</p>
+                    </div>
+                    <div class="formtext12">
+                        <div class="font30">Оставляйте заявку и Яна свяжется <br> с вами в ближайшее время</div>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <div class="imageforms"><img src="image/arrowform.svg" alt=""></div>
+                    <form>
+                        <input type="tel" placeholder="Введите номер телефона" required />
+                        <input type="text" placeholder="Ваше имя" required />
+                        <div class="input-with-icon">
+                            <input type="date" placeholder="Выберите дату" required />
+                        </div>
+                        <button type="submit" class="submit-button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainpagebackground">
+            <div class="footer">
+                <div class="footer1">
+                    <p class="fontheader font-weight">Контакты</p>
+                </div>
+                <div class="footer2">
+                    <div class="footertext">
+                        <div class="font20">Подписывайтесь на наши социальные сети или звоните,<br> мы будем рады обратной связи и вашим вопросам.</div>
+                    </div>
+                    <div class="icons">
+                        <a href="http://"><img src="image/insta.svg" alt=""></a>
+                        <a href="http://"><img src="image/tg.svg" alt=""></a>
+                        <a href="http://"><img src="image/youtub.svg" alt=""></a>
+                        <a href="http://"><img src="image/wats.svg" alt=""></a>
+                    </div>
+                    <div class="footertext">
+                        <div class="font20">ИП Маламагомедов Маламагомед Набиевич <br>ИНН 053689267113 Хунзахский р-н, с. Ках</div>
+                    </div>
+                </div>
+                <div class="footer3">
+                    <div class="font20">© ИП Маламагомедов М. Н., 2023 <br>Все права защищены</div>
+                </div>
+            </div>
+            <div class="modal">
+                <div class="modal-fader">
+                    <div class="modal-window">
+                        <div class="font30">Форма отправлена</div>
+                        <p class="font200">Будем ждать вас в Дагестане!</p>
+                        <div class="imagebac"><img src="image/rrrr.png" alt=""></div>
+                        <div class="close-window">&#215;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('a., a.btn-up').on("click", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+            $(document).ready(function(){
+            $('a., a.btn-back').on("click", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+
+            $('.form-right button').on("click", function (event) {
+                event.preventDefault();
+                $('.modal').addClass('active');
+            });
+
+            $('.close-window').on("click", function (event) {
+                event.preventDefault();
+                $('.modal').removeClass('active');
+            });
+    </script>
+</body>
+</html>
